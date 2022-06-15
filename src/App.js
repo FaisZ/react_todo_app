@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import FirstComponent from './components/examples/FirstComponent';
-import Counter from './components/counter-app/Counter';
+import Counter from './components/counter-app/CounterButton';
 
 class App extends Component {
   render () {
@@ -21,7 +21,7 @@ class App extends Component {
           >
             Learn React <FirstComponent/>
           </a>
-          <Counter />
+          <Counter/>
         </header>
       </div>
     );
