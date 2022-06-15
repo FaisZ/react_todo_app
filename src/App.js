@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import FirstComponent from './components/examples/FirstComponent';
-import Counter from './components/counter-app/CounterButton';
+import TodoApp from './components/todo-app/TodoApp';
+// import Counter from './components/counter-app/CounterButton';
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -19,10 +19,12 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React <FirstComponent/>
-          </a>
-          <Counter/>
-        </header>
+          </a> */}
+          {/* <Counter/> */}
+        {/* </header> */}
+        <div>
+          <TodoApp/>
+        </div>
       </div>
     );
   }
